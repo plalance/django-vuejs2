@@ -1,10 +1,12 @@
 exports.config = {
     files: {
         javascripts: {
-            joinTo: 'app.js'
+            joinTo: {
+                'app.js': /^resources/,
+                'vendor.js': /^(?!resources)/
+            }
         },
         stylesheets: {
-            defaultExtensions: 'scss',
             joinTo: {
                 'app.css': /^resources/,
             }
@@ -25,11 +27,15 @@ exports.config = {
     // Automatically require modules
     modules: {
         autoRequire: {
-            "app.js": ["static/js/main"]
+            "app.js": ["resources/main.js"]
         }
     },
 
     npm: {
         enabled: true
+    },
+
+    plugins: {
+        babel: {},
     },
 };

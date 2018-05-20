@@ -7,6 +7,7 @@
     <title>Base</title>
     <link rel="stylesheet" href="{% static "app.css" %}"/>
     <script src="{% static "app.js" %}"></script>
+    <script src="{% static "vendor.js" %}"></script>
 </head>
 <body>
 <header>
@@ -16,7 +17,18 @@
         <li>Base menu</li>
     </ul>
 </header>
+
+<div id="app">
+</div>
+
 {% block body %}
 {% endblock %}
+
+<script>
+    const datas = {
+        user: "toto",
+    };
+</script>
+<script>require('resources/vue/index.js');</script>
 </body>
 </html>
