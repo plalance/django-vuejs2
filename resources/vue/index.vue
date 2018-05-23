@@ -92,7 +92,7 @@
                         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small">
-                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Activity</h4></div>
+                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">ChartJS</h4></div>
                                     <div class="uk-width-expand uk-text-right">
                                         <a href="#" class="uk-icon-link uk-margin-small-right"
                                            data-uk-icon="icon: move"></a>
@@ -231,7 +231,7 @@
                         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small">
-                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Lorem ipsum</h4>
+                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Localisation</h4>
                                     </div>
                                     <div class="uk-width-expand uk-text-right">
                                         <a href="#" class="uk-icon-link uk-margin-small-right"
@@ -243,9 +243,7 @@
                                 </div>
                             </div>
                             <div class="uk-card-body">
-                                <img :src="staticFolder + 'img/mapa4.svg'" alt="">
-                                <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit.</p>
+                                <Gmap :marker-coordinates="markerCoordinates" :name="'supermap'" :zoom="14"></Gmap>
                             </div>
                         </div>
                     </div>
@@ -312,15 +310,15 @@
         </div>
         <!-- /OFFCANVAS -->
     </div>
-
 </template>
 
 <script>
     import Chart from 'chart.js';
+    import Gmap from './components/google-map';
 
     export default {
         name: 'app',
-        components: {},
+        components: {Gmap},
         data() {
             return {
                 user: {},
@@ -351,6 +349,10 @@
                         borderWidth: 1
                     }]
                 },
+                markerCoordinates: [{
+                    latitude: 47.6425875,
+                    longitude: 6.844186600000057
+                }]
             }
         },
         created() {
