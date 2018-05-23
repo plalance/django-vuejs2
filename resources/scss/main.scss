@@ -1,0 +1,10 @@
+@import "variables-theme";
+@import "mixins-theme";
+@import "uikit-theme";
+
+@import "dashboard";
+@import "cards";
+
+header {
+    background-color: #aeb2c1;
+}

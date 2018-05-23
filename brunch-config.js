@@ -37,5 +37,16 @@ exports.config = {
 
     plugins: {
         babel: {},
+        sass: {
+            options: {
+                includePaths: ["node_modules/uikit/src/scss"]
+            }
+        },
+        // Globales se déclarent ic ou dans les fichiers js avec import ... from '...'
+        // globals: {
+        //     $: "jquery",
+        //     uikit: "uikit",
+        //     icons: "uikit/dist/js/uikit-icons"
+        // }
     },
 };
