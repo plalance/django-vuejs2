@@ -13,147 +13,7 @@
 <body>
 <div class="uk-offcanvas-content">
     <!--HEADER-->
-    <header id="top-head" class="uk-position-fixed">
-        <div class="uk-container uk-container-expand uk-background-primary">
-            <nav class="uk-navbar uk-light" data-uk-navbar="mode:click">
-                <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
-                    <ul class="uk-navbar-nav uk-visible@m">
-                        <li class="uk-active"><a href="#">Accounts</a></li>
-                        <li>
-                            <a href="#">Settings <span data-uk-icon="icon: triangle-down"></span></a>
-                            <div class="uk-navbar-dropdown">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-nav-header">YOUR ACCOUNT</li>
-                                    <li><a href="#"><span data-uk-icon="icon: info"></span> Summary</a></li>
-                                    <li><a href="#"><span data-uk-icon="icon: refresh"></span> Edit</a></li>
-                                    <li><a href="#"><span data-uk-icon="icon: settings"></span> Configuration</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#"><span data-uk-icon="icon: image"></span> Your Data</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#"><span data-uk-icon="icon: sign-out"></span> Logout</a></li>
-
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="uk-navbar-item uk-visible@s">
-                        <form action="#" class="uk-search uk-search-default">
-                            <span data-uk-search-icon></span>
-                            <input class="uk-search-input search-field" type="search" placeholder="Search">
-                        </form>
-                    </div>
-                </div>
-                <div class="uk-navbar-right">
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="#" data-uk-icon="icon:user"></a>
-                            <div class="uk-navbar-dropdown uk-navbar-dropdown-bottom-left">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-nav-header">YOUR ACCOUNT</li>
-                                    <li><a href="#"><span data-uk-icon="icon: info"></span> Summary</a></li>
-                                    <li><a href="#"><span data-uk-icon="icon: refresh"></span> Edit</a></li>
-                                    <li><a href="#"><span data-uk-icon="icon: settings"></span> Configuration</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#"><span data-uk-icon="icon: image"></span> Your Pictures</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#"><span data-uk-icon="icon: sign-out"></span> Logout</a></li>
-
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="#" data-uk-icon="icon: settings"></a></li>
-                        <li><a href="#" data-uk-icon="icon: cog"></a></li>
-                        <li><a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon
-                               href="#offcanvas-nav"></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
     <!--/HEADER-->
-    <!-- LEFT BAR -->
-    <aside id="left-col" class="uk-light uk-visible@m">
-        <div class="profile-bar">
-            <div class="uk-grid uk-grid-small uk-flex uk-flex-middle" data-uk-grid>
-                <div class="uk-width-auto"><img src="{% static "/imgimg/photo.jpg" %}" alt=""
-                                                class="uk-border-circle profile-img"></div>
-                <div class="uk-width-expand">
-                    <span class="uk-text-small uk-text-muted">Welcome</span>
-                    <h4 class="uk-margin-remove-vertical text-light">Finn the Human</h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="bar-content uk-position-relative">
-            <ul class="uk-nav-default uk-nav-parent-icon" data-uk-nav>
-                <li class="uk-nav-header">MAIN SECTIONS</li>
-                <li class="uk-parent uk-open">
-                    <a href="#">Parent</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
-                    </ul>
-                </li>
-                <li class="uk-parent">
-                    <a href="#">Parent</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
-                    </ul>
-                </li>
-                <li class="uk-parent">
-                    <a href="#">Parent</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
-                    </ul>
-                </li>
-                <li class="uk-nav-header">SECONDARY</li>
-                <li class="uk-parent">
-                    <a href="#">Parent</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
-                    </ul>
-                </li>
-                <li class="uk-parent">
-                    <a href="#">Parent</a>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#">Sub item</a></li>
-                        <li><a href="#">Sub item</a></li>
-                    </ul>
-                </li>
-                <li class="uk-nav-header">LIST OF PAGES</li>
-                <li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: image"></span> Album</a></li>
-                <li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: info"></span> Article</a></li>
-                <li class="uk-nav-divider"></li>
-                <li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: sign-in"></span> Login</a></li>
-                <li><a href="#"><span class="uk-margin-small-right" data-uk-icon="icon: sign-in"></span> Login-Dark</a>
-                </li>
-            </ul>
-        </div>
-        <div class="uk-position-bottom bar-bottom">
-            <ul class="uk-subnav uk-flex uk-flex-center uk-child-width-1-6" data-uk-grid>
-                <li>
-                    <a href="#" class="uk-icon-link" data-uk-icon="icon: home"></a>
-                </li>
-                <li>
-                    <a href="#" class="uk-icon-link" data-uk-icon="icon: settings"></a>
-                </li>
-                <li>
-                    <a href="#" class="uk-icon-link" data-uk-icon="icon: social"></a>
-                </li>
-                <li>
-                    <a href="#" class="uk-icon-link" data-uk-icon="icon: comment"></a>
-                </li>
-                <li>
-                    <a href="#" class="uk-icon-link" data-uk-tooltip="Sign out" data-uk-icon="icon: sign-out"></a>
-                </li>
-            </ul>
-        </div>
-    </aside>
-    <!-- /LEFT BAR -->
     <!-- CONTENT -->
     <div id="content" data-uk-height-viewport="expand: true">
         <div class="uk-container uk-container-expand">
@@ -228,7 +88,7 @@
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <img src="{% static "/img/mapa1.svg" %}" alt="">
+                            <img src="{% static "img/mapa1.svg" %}" alt="">
                             <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
                         </div>
@@ -250,7 +110,7 @@
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <img src="img/mapa2.svg" alt="">
+                            <img src="{% static "img/mapa2.svg" %}" alt="">
                             <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
                         </div>
@@ -272,7 +132,7 @@
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <img src="img/mapa3.svg" alt="">
+                            <img src="{% static "img/mapa3.svg" %}" alt="">
                             <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
                         </div>
@@ -373,7 +233,7 @@
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <img src="img/mapa4.svg" alt="">
+                            <img src="{% static "img/mapa4.svg" %}" alt="">
                             <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
                         </div>
@@ -395,7 +255,7 @@
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <img src="img/mapa4.svg" alt="">
+                            <img src="{% static "img/mapa4.svg" %}" alt="">
                             <p class="uk-text-muted uk-text-small uk-text-center">Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.</p>
                         </div>
@@ -403,12 +263,6 @@
                 </div>
                 <!-- /panel -->
             </div>
-            <footer class="uk-section uk-section-small uk-text-center">
-                <hr>
-                <a href="https://github.com/zzseba78/Kick-Off">Created by KickOff</a> | Build with <a
-                    href="http://getuikit.com" title="Visit UIkit 3 site" target="_blank" data-uk-tooltip><span
-                    data-uk-icon="uikit"></span></a>
-            </footer>
         </div>
     </div>
     <!-- /CONTENT -->
