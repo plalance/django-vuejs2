@@ -21,6 +21,12 @@
             }
         },
         mounted: function () {
+            if (navigator.geolocation) {
+                // L'API est disponible
+            } else {
+                // Pas de support, proposer une alternative ?
+            }
+
             this.bounds = new google.maps.LatLngBounds();
             const element = document.getElementById(this.mapName)
             const mapCentre = this.markerCoordinates[0]

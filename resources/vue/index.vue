@@ -12,8 +12,7 @@
                                                       class="uk-margin-small-right uk-text-primary"></span>New Users</span>
                         <h1 class="uk-heading-primary uk-margin-remove  uk-text-primary">2.134</h1>
                         <div class="uk-text-small">
-                            <span class="uk-text-success" data-uk-icon="icon: triangle-up">15%</span> more than last
-                            week.
+                            <span class="uk-text-success" data-uk-icon="icon: triangle-up">15%</span>de plus que la semaine dernière.
                         </div>
                     </div>
                     <div>
@@ -22,8 +21,7 @@
                                                       class="uk-margin-small-right uk-text-primary"></span>Social Media</span>
                         <h1 class="uk-heading-primary uk-margin-remove uk-text-primary">8.490</h1>
                         <div class="uk-text-small">
-                            <span class="uk-text-warning" data-uk-icon="icon: triangle-down">-15%</span> less than last
-                            week.
+                            <span class="uk-text-warning" data-uk-icon="icon: triangle-down">-15%</span>de moins que la semaine dernière
                         </div>
 
                     </div>
@@ -35,8 +33,7 @@
                             <small class="uk-text-small">PM</small>
                         </h1>
                         <div class="uk-text-small">
-                            <span class="uk-text-success" data-uk-icon="icon: triangle-up"> 19%</span> more than last
-                            week.
+                            <span class="uk-text-success" data-uk-icon="icon: triangle-up"> 19%</span>de plus que la semaine dernière
                         </div>
 
                     </div>
@@ -68,7 +65,7 @@
                         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small">
-                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Geographic Chart</h4>
+                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Geographie (image)</h4>
                                     </div>
                                     <div class="uk-width-expand uk-text-right">
                                         <a href="#" class="uk-icon-link uk-margin-small-right"
@@ -117,7 +114,7 @@
                         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
                             <div class="uk-card-header">
                                 <div class="uk-grid uk-grid-small">
-                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Conversions</h4>
+                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Diagramme barre</h4>
                                     </div>
                                     <div class="uk-width-expand uk-text-right">
                                         <a href="#" class="uk-icon-link uk-margin-small-right"
@@ -136,96 +133,96 @@
                         </div>
                     </div>
                     <!-- /panel -->
-                    <!-- panel -->
-                    <div class=" uk-width-2-3@l uk-width-1-2@xl">
-                        <div class="uk-card uk-card-default uk-card-small uk-card-hover">
-                            <div class="uk-card-header">
-                                <div class="uk-grid uk-grid-small">
-                                    <div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Consectetur sit</h4>
-                                    </div>
-                                    <div class="uk-width-expand uk-text-right">
-                                        <a href="#" class="uk-icon-link uk-margin-small-right"
-                                           data-uk-icon="icon: move"></a>
-                                        <a href="#" class="uk-icon-link uk-margin-small-right"
-                                           data-uk-icon="icon: cog"></a>
-                                        <a href="#" class="uk-icon-link" data-uk-icon="icon: close"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-body">
-                                <div class="uk-overflow-auto">
-                                    <table class="uk-table uk-table-hover uk-table-divider uk-table-middle">
-                                        <thead>
-                                        <tr>
-                                            <th class="uk-table-shrink"></th>
-                                            <th>Name</th>
-                                            <th>Description</th>
-                                            <th>Date</th>
-                                            <th>Action</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td><img src="https://picsum.photos/40/40/?random=1" alt="Alt text"
-                                                     class="uk-border-circle uk-preserve-width "></td>
-                                            <td>John Doe</td>
-                                            <td>Maecenas sagittis, massa nulla luctus mauris</td>
-                                            <td>11/09/18</td>
-                                            <td>
-                                                <a href="#" class="uk-icon-link uk-text-success"
-                                                   data-uk-icon="check"></a>
-                                                <a href="#" class="uk-icon-link uk-text-danger"
-                                                   data-uk-icon="close"></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><img src="https://picsum.photos/40/40/?random=2" alt="Alt text"
-                                                     class="uk-border-circle uk-preserve-width "></td>
-                                            <td>Larry Boile</td>
-                                            <td>Maecenas sagittis, dolor id posuere finibus, massa nulla luctus mauris
-                                            </td>
-                                            <td>13/09/18</td>
-                                            <td>
-                                                <a href="#" class="uk-icon-link uk-text-success"
-                                                   data-uk-icon="check"></a>
-                                                <a href="#" class="uk-icon-link uk-text-danger"
-                                                   data-uk-icon="close"></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><img src="https://picsum.photos/40/40/?random=3" alt="Alt text"
-                                                     class="uk-border-circle uk-preserve-width "></td>
-                                            <td>Susan Lee</td>
-                                            <td>Sagittis, dolor id posuere finibus, massa nulla luctus mauris</td>
-                                            <td>18/09/18</td>
-                                            <td>
-                                                <a href="#" class="uk-icon-link uk-text-success"
-                                                   data-uk-icon="check"></a>
-                                                <a href="#" class="uk-icon-link uk-text-danger"
-                                                   data-uk-icon="close"></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><img src="https://picsum.photos/40/40/?random=4" alt="Alt text"
-                                                     class="uk-border-circle uk-preserve-width "></td>
-                                            <td>Jerry Thomas</td>
-                                            <td>Maecenas sagittis, dolor id posuere finibus, massa nulla luctus mauris
-                                            </td>
-                                            <td>21/09/18</td>
-                                            <td>
-                                                <a href="#" class="uk-icon-link uk-text-success"
-                                                   data-uk-icon="check"></a>
-                                                <a href="#" class="uk-icon-link uk-text-danger"
-                                                   data-uk-icon="close"></a>
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /panel -->
+                    <!--&lt;!&ndash; panel &ndash;&gt;-->
+                    <!--<div class=" uk-width-2-3@l uk-width-1-2@xl">-->
+                        <!--<div class="uk-card uk-card-default uk-card-small uk-card-hover">-->
+                            <!--<div class="uk-card-header">-->
+                                <!--<div class="uk-grid uk-grid-small">-->
+                                    <!--<div class="uk-width-auto"><h4 class="uk-margin-remove-bottom">Consectetur sit</h4>-->
+                                    <!--</div>-->
+                                    <!--<div class="uk-width-expand uk-text-right">-->
+                                        <!--<a href="#" class="uk-icon-link uk-margin-small-right"-->
+                                           <!--data-uk-icon="icon: move"></a>-->
+                                        <!--<a href="#" class="uk-icon-link uk-margin-small-right"-->
+                                           <!--data-uk-icon="icon: cog"></a>-->
+                                        <!--<a href="#" class="uk-icon-link" data-uk-icon="icon: close"></a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="uk-card-body">-->
+                                <!--<div class="uk-overflow-auto">-->
+                                    <!--<table class="uk-table uk-table-hover uk-table-divider uk-table-middle">-->
+                                        <!--<thead>-->
+                                        <!--<tr>-->
+                                            <!--<th class="uk-table-shrink"></th>-->
+                                            <!--<th>Name</th>-->
+                                            <!--<th>Description</th>-->
+                                            <!--<th>Date</th>-->
+                                            <!--<th>Action</th>-->
+                                        <!--</tr>-->
+                                        <!--</thead>-->
+                                        <!--<tbody>-->
+                                        <!--<tr>-->
+                                            <!--<td><img src="https://picsum.photos/40/40/?random=1" alt="Alt text"-->
+                                                     <!--class="uk-border-circle uk-preserve-width "></td>-->
+                                            <!--<td>John Doe</td>-->
+                                            <!--<td>Maecenas sagittis, massa nulla luctus mauris</td>-->
+                                            <!--<td>11/09/18</td>-->
+                                            <!--<td>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-success"-->
+                                                   <!--data-uk-icon="check"></a>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-danger"-->
+                                                   <!--data-uk-icon="close"></a>-->
+                                            <!--</td>-->
+                                        <!--</tr>-->
+                                        <!--<tr>-->
+                                            <!--<td><img src="https://picsum.photos/40/40/?random=2" alt="Alt text"-->
+                                                     <!--class="uk-border-circle uk-preserve-width "></td>-->
+                                            <!--<td>Larry Boile</td>-->
+                                            <!--<td>Maecenas sagittis, dolor id posuere finibus, massa nulla luctus mauris-->
+                                            <!--</td>-->
+                                            <!--<td>13/09/18</td>-->
+                                            <!--<td>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-success"-->
+                                                   <!--data-uk-icon="check"></a>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-danger"-->
+                                                   <!--data-uk-icon="close"></a>-->
+                                            <!--</td>-->
+                                        <!--</tr>-->
+                                        <!--<tr>-->
+                                            <!--<td><img src="https://picsum.photos/40/40/?random=3" alt="Alt text"-->
+                                                     <!--class="uk-border-circle uk-preserve-width "></td>-->
+                                            <!--<td>Susan Lee</td>-->
+                                            <!--<td>Sagittis, dolor id posuere finibus, massa nulla luctus mauris</td>-->
+                                            <!--<td>18/09/18</td>-->
+                                            <!--<td>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-success"-->
+                                                   <!--data-uk-icon="check"></a>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-danger"-->
+                                                   <!--data-uk-icon="close"></a>-->
+                                            <!--</td>-->
+                                        <!--</tr>-->
+                                        <!--<tr>-->
+                                            <!--<td><img src="https://picsum.photos/40/40/?random=4" alt="Alt text"-->
+                                                     <!--class="uk-border-circle uk-preserve-width "></td>-->
+                                            <!--<td>Jerry Thomas</td>-->
+                                            <!--<td>Maecenas sagittis, dolor id posuere finibus, massa nulla luctus mauris-->
+                                            <!--</td>-->
+                                            <!--<td>21/09/18</td>-->
+                                            <!--<td>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-success"-->
+                                                   <!--data-uk-icon="check"></a>-->
+                                                <!--<a href="#" class="uk-icon-link uk-text-danger"-->
+                                                   <!--data-uk-icon="close"></a>-->
+                                            <!--</td>-->
+                                        <!--</tr>-->
+                                        <!--</tbody>-->
+                                    <!--</table>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /panel &ndash;&gt;-->
                     <!-- panel -->
                     <div class="uk-width-1-2@s uk-width-1-2@l uk-width-1-4@xl">
                         <div class="uk-card uk-card-default uk-card-small uk-card-hover">
