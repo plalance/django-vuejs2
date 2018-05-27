@@ -1,5 +1,5 @@
 <template>
-    <div class="uk-offcanvas-content">
+    <div class="uk-offcanvas-content" id="app">
         <Loader :state="state"></Loader>
         <!--HEADER-->
         <!--/HEADER-->
@@ -290,7 +290,7 @@
             });
             window.setTimeout(function () {
                 this.state =  false;
-            }.bind(this), 500)
+            }.bind(this), 500);
         },
         watch: {
             chartText: function () {

@@ -1,25 +1,10 @@
 <template>
-    <div id="loader" v-show="state" ref="loader">
-        <div class="lds-roller">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    <div></div>
 </template>
 <script>
     export default {
         name: 'loader',
         props: {
-            duration: {
-                default: 5,
-                type: Number
-            },
             state: {
                 default: true,
                 type: Boolean
